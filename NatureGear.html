@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NatureGear</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar --> 
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Foto4.png" alt="NatureGear Logo" class="logo-image" width="50"> <!-- Logo -->
+            <span>NatureGear</span> <!-- Text moved next to logo -->
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#galery">GALERY</a></li>
+            <li><a href="#about-us">ABOUT US</a></li>
+            <li><a href="#contact-us  ">CONTACT US</a></li>
+        </ul>
+        <div class="cart-user">
+            <button class="user-button">Registrasi</button>
+            <button class="user-button">Login</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Add the uploaded image here -->
+        <img src="Campig5.jpg" alt="Camping Scene" class="hero-image">
+        <div class="hero-text">
+            <h1>EXPERIENCE THE BEST AND SAFE</h1>
+            <h2>CAMPING WITH US</h2>
+            <a href="#" class="cta-button">Enquire Now</a>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section id="galery" class="content-grid" style="margin-bottom: 20px;"> <!-- Menambah margin-bottom -->
+        <div class="content-item">  
+            <img src="camping1.jpg" alt="Camping with a View">
+        </div>
+        <div class="content-item">
+            <img src="camping2.jpg" alt="Person Hiking with Backpack">
+        </div>
+        <div class="content-item">
+            <img src="Camping3.png" alt="Camping Stove">
+        </div>
+    </section>
+
+    <!-- ABOUT US Section -->
+    <section id="about-us" class="about-us">
+        <h1>ABOUT US</h1>
+        <div class="content">
+            <img src="Gambar1.png" alt="Person camping">
+            <p>
+                Selamat datang di NatureGear! Kami adalah penyedia layanan peralatan dan pengalaman camping yang berkomitmen untuk menghadirkan petualangan luar ruangan yang tak terlupakan bagi Anda. Dengan semangat mencintai alam dan keinginan untuk mendekatkan orang-orang dengan keindahan alam, kami menawarkan berbagai pilihan camping mulai dari yang ramah keluarga hingga petualangan outdoor yang menantang.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT US Section --> 
+    <section id="contact-us" class="contact-us">
+        <h1>CONTACT US</h1>
+        <p class="contact-text">Kami senang mendengar dari Anda! Jika Anda memiliki pertanyaan, saran, atau ingin mendapatkan informasi lebih lanjut tentang layanan kami, jangan ragu untuk menghubungi kami melalui formulir di bawah ini:</p>
+        <div class="contact-form-container">
+            <form action="#" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    <div style="display: flex; flex-direction: row; align-items: center;">
+                        <img src="Foto4.png" alt="" width="8">
+                        <h1>NatureGear</h1>
+                    </div>
+                    <div style="display: flex; flex-direction: column; margin-left: 1rem;">
+                        <h3 style="margin: auto; font-size: small; font-weight: 100;">Jl. Raya Sengkaling, Malang, Jawa Timur</h3>
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-between; margin: 0px 12px 0px 12px;">
+                    <div style="display: flex; flex-direction: row; gap: 10px;">
+                        <div style="display: flex; flex-direction: row; margin: auto;">
+                            <img src="Foto1.png" alt="" width="5"/>
+                        </div>
+                        <div style="display: flex; flex-direction: row; margin: auto;">
+                            <img src="Foto2.png" alt="" width="5"/>
+                        </div>
+                        <div style="display: flex; flex-direction: row; margin: auto;">
+                            <img src="Foto3.png" alt="" width="5"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2024 Nature Gear. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
